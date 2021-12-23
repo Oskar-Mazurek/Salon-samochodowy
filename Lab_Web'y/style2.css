@@ -1,0 +1,148 @@
+body {
+	font-family: Verdana;
+	background-color: rgb(179, 178, 178);
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to top, rgb(179, 178, 178), wheat);
+}
+
+.container {
+	display: flex;
+}
+
+.navigation-name {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.asideL {
+	background-color: rgb(179, 178, 178);
+	width: 50vw;
+	order: 1;
+}
+
+.asideR {
+	background-color: rgb(179, 178, 178);
+	width: 50vw;
+	order: 3;
+	height: 300px;
+	font-size: 15px;
+}
+
+#counter {
+	color: green;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 1px;
+}
+
+#asideR {
+	flex-direction: column;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main {
+	background-color: silver;
+	width: 100vw;
+	display: flex;
+	order: 2;
+	border-radius: 15px;
+}
+
+.thead {
+	background-color: #99ff66
+}
+
+.tbody>tr:nth-child(odd) {
+	background-color: #0781fc;
+}
+
+tbody>tr:nth-child(even) {
+	background-color: #fca80d;
+}
+
+tbody>tr:hover {
+	color: rgb(255, 0, 0);
+	;
+}
+
+.footer {
+	background-color: #CCC;
+	clear: both;
+	text-align: center;
+}
+
+img, video {
+	max-width: 100%;
+}
+
+.opinie {
+	display: flex;
+	flex-direction: column;
+}
+
+.opinie>div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.opinia {
+	width: 25%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.opinia {
+		width: 50%;
+	}
+}
+
+@media print {
+	body {
+		color: black;
+		background-color: white;
+	}
+	.header, .footer, .asideL, .asideR, .video {
+		display: none;
+	}
+}
+
+.link {
+	color: black;
+	background-color: #D3D3D3;
+	text-decoration: none;
+	height: 1.2em;
+	padding: 3px 6px;
+	margin: 10px 0;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 10px;
+}
+
+.link:hover {
+	background-color: #DFDFDF;
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,60 @@
+{
+    "tableHeaders": {
+        "id": "Id",
+        "marka": "Marka",
+        "model": "Model",
+        "silnik": "Silnik",
+        "typ_silnika": "Typ silnika",
+        "cena": "Cena"
+    },
+    "models": [
+        {
+            "id": "1",
+            "brand": "Peugeot",
+            "model": "206",
+            "silnik": {
+                "fuel": "diesel",
+                "volume": "2.0 l",
+                "power": "90 KM"
+            },
+            "type": "HDI",
+            "prise": "10000zł"
+        },
+        {
+            "id": "2",
+            "brand": "BMW",
+            "model": "E60",
+            "silnik": {
+                "fuel": "diesel",
+                "volume": "2.5 l",
+                "power": "177 KM"
+            },
+            "type": "D",
+            "prise": "50000zł"
+        },
+        {
+            "id": "3",
+            "brand": "Citroen",
+            "model": "c3",
+            "silnik": {
+                "fuel": "diesel",
+                "volume": "1.4 l",
+                "power": "64 KM"
+            },
+            "type": "HDI",
+            "prise": "10000zł"
+        },
+        {
+            "id": "4",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "silnik": {
+                "fuel": "benzyna",
+                "volume": "1.8 l",
+                "power": "122 KM"
+            },
+            "type": "Hybrid",
+            "prise": "70000zł"
+        }
+    ]
+}

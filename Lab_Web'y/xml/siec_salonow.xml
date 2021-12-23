@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./transformacjaXML.xsl"?>
+<siec_salonow>
+    <salon id="1" nazwa="Salon Warszawa" NLocation="52.222051" ELocation="20.977549"/>
+    <salon id="2" nazwa="Salon Lublin" NLocation="51.249638" ELocation="22.538693"/>
+    <salon id="3" nazwa="Salon Rzeszów" NLocation="50.039768" ELocation="21.995904"/>
+</siec_salonow>
